@@ -24,30 +24,29 @@
     <!-- DONE: Read the CSS Tricks article on clearfix, and explain in your own words how they are used. -->
     <!-- https://css-tricks.com/snippets/css/clear-fix/ -->
     <!-- Clearfixes are used to force a parent element to contain its child floating elements when they would otherwise overflow the container. -->
-    
     <div class="icon-menu"></div>
     <section class="heading-group-h1">
       <h1>
         Kilovolt Blog!
       </h1>
       <h2>The shocking power of static pages</h2>
+      <nav class="main-nav">
+        <!-- DONE: Add a hamburger menu icon here, which will show/hide depending on screen width (desktop vs. mobile). -->
+        <ul>
+          <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
+          <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
+          <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
+          <li><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
+        </ul>
+      </nav>
     </section>
-    <nav class="main-nav">
-      <!-- DONE: Add a hamburger menu icon here, which will show/hide depending on screen width (desktop vs. mobile). -->
-      <ul>
-        <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
-        <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
-        <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
-        <li><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
-      </ul>
-    </nav>
   </header>
   <main>
     <section id="articles" class="tab-content">
       <article class="clearfix" data-category="bacon">
           <header>
             <h1>Bacon Ipsum</h1>
-            <!-- REVIEW: Look closely at the HTML structure of this "byline" div, as it will affect how you choose to target these elements in CSS. -->
+            <!-- DONE: Look closely at the HTML structure of this "byline" div, as it will affect how you choose to target these elements in CSS. -->
             <div class="byline">
               By <address><a href="http://www.imdb.com/name/nm0000102/">Kevin Bacon</a></address>
               published <time pubdate="" datetime="2015-11-05" title="2015-11-05">about 718 days ago</time>
@@ -91,7 +90,7 @@
     </section>
   </main>
   <footer>
-    <!-- REVIEW: Note the use of &copy; below, and take a moment to look up how special characters are displayed in HTML if you are not familiar with them. -->
+    <!-- DONE: Note the use of &copy; below, and take a moment to look up how special characters are displayed in HTML if you are not familiar with them. -->
     &copy; 2017 Code Fellows | Static Blog | Happy Ipsum!
   </footer>
 </body>

@@ -169,25 +169,27 @@ _Your README.md must include:_
 ```md
 # Project Name
 
-**Author**: Your Name Goes Here
+**Author**: Sarah Geyer and Sean Miller
 **Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
 
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 301 class. (i.e. What's your problem domain?) -->
+This is a food blog that has a hover feature over the menu icon that reveals the navigation menu and a responsive web design that adjusts based on screen size.
 
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+The user needs to start with a basic HTML layout of the blog, then build the CSS based on SMACCS principles according to their desired style. They would then need to add a media query to make the site responsive to screen size, and add a hover pseudoclass on the menu icon to show the navigation menu. In reality this would be more effective with jQuery with the mouseover and mouseleave functions are more functional than 'hover'.
 
 ## Architecture
 <!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+This application uses HTML and CSS and media queries. We based CSS on SMACCS principles.
 
 ## Change Log
 <!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
-
-01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
+03-13-2018 10:37am - Application has fully built HTML layout with CSS files added but empty.
+03-13-2018 11:03am - CSS files contain styling elements based on comp images provided for full-page (large screen) design, media query added.
+03-13-2018 11:59am - CSS files contain styling elements for mobile format.
 
 ## Credits and Collaborations
-https://github.com/necolas/normalize.css/blob/master/normalize.css 
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+Normalize CSS: https://github.com/necolas/normalize.css/blob/master/normalize.css 
 -->
 ```
