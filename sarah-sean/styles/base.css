@@ -1,6 +1,5 @@
-.heading-group-h1{
-  padding: 5px;
-  padding-left:20px;
+*{
+  font-family: Arial, Helvetica, sans-serif;
 }
 .site-header{
   background-color: #FFE9AD;
@@ -9,27 +8,11 @@
   float:right;
   font-size: 50px;
 }
-h2{
-  margin: 30px 0px 10px 0px;
-  font-size: 25px;
-}
-p{
-  line-height: 1.3;
-}
-*{
-  font-family: Arial, Helvetica, sans-serif;
-}
-nav ul{
-  padding-left: 0px;
-  padding-bottom: 20px;
-}
 nav li{
-  font-size: 22px;
+  font-size: 24px;
   list-style: none;
-  padding:12px 0px 12px 5px;
-}
-main{
-  padding: 0px 20px 0px 20px;
+  padding:12px 0px 20px 5px;
+  display: none;
 }
 address{
   font-weight: bold;
@@ -39,7 +22,7 @@ address{
   color: grey;
   text-decoration: none;
 }
-@media all and (min-width: 480px){
+@media all and (min-width: 550px){
   nav li{
     display:inline-block;
     padding-left:15px;
@@ -53,6 +36,4 @@ address{
   .icon-menu{
     display:none;
   }
-
 }
-
