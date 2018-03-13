@@ -187,6 +187,7 @@ _Your README.md must include:_
 01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
 
 ## Credits and Collaborations
+https://github.com/necolas/normalize.css/blob/master/normalize.css 
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 -->
 ```
